@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-#include <random>
 
 using namespace std;
 
@@ -14,11 +13,7 @@ int closestPrime(int x);
  * file. The only file to edit is app.cpp**/
 /****
 int main(){
-    std::mt19937 engine(std::random_device{}());
-    std::uniform_int_distribution<> dist(1, 10000);
-    int tmp = dist(engine);
-    cout << tmp << " " << isPrime(tmp) << endl;
-    cout << tmp << " " << closestPrime(tmp) << endl;
+
     return 0;
 }
 ****/
