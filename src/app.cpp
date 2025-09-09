@@ -17,8 +17,8 @@ int main(){
     std::mt19937 engine(std::random_device{}());
     std::uniform_int_distribution<> dist(1, 10000);
     int tmp = dist(engine);
-    cout << tmp << " " << isPrime(100) << endl;
-    cout << tmp << " " << closestPrime(100) << endl;
+    cout << tmp << " " << isPrime(tmp) << endl;
+    cout << tmp << " " << closestPrime(tmp) << endl;
     return 0;
 }
 ****/
